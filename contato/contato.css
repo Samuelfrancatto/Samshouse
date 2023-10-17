@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(53, 53, 53);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+main{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+table{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    border-spacing: 30px;
+    font-size: 20px;
+}
+
+table img{
+    width: 50px;
+}
+
+table a{
+    color: white;
+}
+
+.github:hover{
+    color: purple;
+}
+
+.insta:hover{
+    color: #F78B21;
+}
+
+.yt:hover{
+    color: red;
+}
