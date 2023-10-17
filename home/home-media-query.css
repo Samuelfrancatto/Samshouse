@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Estilos para dispositivos móveis (largura máxima de 768 pixels) */
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        background-color: rgb(53, 53, 53);
+    }
+
+    .foto {
+        position: relative; /* Remova o position: absolute para elementos se ajustarem melhor em dispositivos móveis */
+        text-align: center; /* Centralize o conteúdo */
+    }
+
+    .foto img {
+        width: 200px; /* Reduza o tamanho da imagem */
+        border-radius: 50%;
+    }
+
+    .foto p {
+        color: white;
+        font-size: 25px;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.274);
+    }
+
+    .descricao {
+        position: relative; /* Remova o position: absolute para elementos se ajustarem melhor em dispositivos móveis */
+        border: 3px solid rgb(132, 0, 255);
+        border-radius: 10px;
+        width: 90%; /* Ajuste a largura para que preencha a tela do dispositivo móvel */
+        margin: 10px auto; /* Centralize o elemento horizontalmente */
+        padding: 10px;
+        box-shadow: 0px 0px 50px rgb(132, 0, 255);
+    }
+
+    .descricao p {
+        color: white;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 30px;
+    }
+}
