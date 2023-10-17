@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px){
+    table{
+        border-spacing: 10px;
+        font-size: 20px;
+    }
+
+    table img{
+        width: 30px;
+    }
+}
