@@ -8,6 +8,7 @@
 
     body{
         background-color: rgb(55, 24, 95);
+        overflow-y: hidden;
     }
 
     main{
